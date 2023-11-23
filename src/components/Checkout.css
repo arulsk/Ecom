@@ -1,0 +1,25 @@
+.checkout{
+    display: flex;
+    gap: 20px;
+    background-color: white;
+}
+.chechout_Ad{
+    margin-top: 10px;
+    margin-left: 10px;
+    max-height: 120px;
+}
+h2{
+    padding: 10px;
+}
+.chechout_Left{
+    display: flex;
+    flex-direction:column ;
+    gap: 5px;
+    flex: 8;
+
+}
+.chechout_Right{
+    flex: 4;
+    margin-right: 10px;
+
+}

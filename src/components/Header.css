@@ -1,0 +1,76 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  
+  }
+  .header_Logo{
+    flex: 2;
+    display: flex;
+    align-items: center;
+  }
+  .header_LogoImg{
+    padding: 10px;
+    color: orange;
+    margin-left: 10px;
+  }
+  .header_Title{
+    color: white;
+    margin-left: 5px;
+  }
+  .header_Search{
+   flex: 7;
+   display: flex;
+   align-items: center;
+  }
+  .search{
+    width: 100%;
+    padding: 3.5px;
+    outline: none;
+    
+  }
+  .search_Icon{
+    background-color: orange;
+    cursor: pointer;
+  }
+  .header_Nav{
+  flex: 3;
+  display: flex;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+  }
+  .nav_Item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .navItem_LineOne{
+    font-size: 10px;
+    color: white;
+  }
+  .navItem_LineTwo{
+     font-size: 15px;
+     font-weight: 800;
+     color: white;
+  }
+  .nav_ItemBasket{
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 10px;
+    position: absolute;
+    top: 20px;
+  }
+  .basket{
+    color: white;
+    margin-top: 10px;    
+  }

@@ -1,0 +1,57 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:first baseline;
+}
+.login_Logo{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.login_Logo > span{
+    font-weight: bold;
+    font-size: x-large;
+}
+.signContainer{
+    width: 360px;
+    border: 1px solid rgb(228, 208, 208);
+    height: 400px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;   
+    justify-content: flex-start;
+    gap: 15px;
+    background-color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+form input{
+    padding: 5px;
+    width: 320px;
+    border: 2px solid black;
+    outline: none;
+}
+form >button{
+    padding: 5px;
+    width: 332px;
+    background-color: orange;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signContainer > button{
+    padding: 5px;
+    width: 332px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
